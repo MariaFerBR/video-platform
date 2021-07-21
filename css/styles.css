@@ -1,0 +1,119 @@
+@import url("./fonts.css");
+
+body {
+  margin: 0;
+  font-family: "Ubuntu";
+  background-color: #b39ddb;
+}
+
+/*
+  Start header styles
+*/
+.header {
+  background-color: #b39ddb;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.header__logo--play-icon {
+  background-color: white;
+  border-radius: 100%;
+  color: #b39ddb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+}
+
+.header__logo--title {
+  color: white;
+  font-family: "Cheri";
+  letter-spacing: 2px;
+  margin-left: 3px;
+}
+
+.header__logo--title::after {
+  color:white;
+  content: "platform";
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.header__menu {
+  cursor: pointer;
+  margin-right: 14px;
+}
+
+.header__menu--profile {
+  display: flex;
+  align-items: center;
+}
+
+.header__menu--profile-img {
+  color: white;
+  font-size: 40px;
+}
+
+.header__menu--profile p {
+  color: white;
+  font-family: "Cheri";
+  font-size: 30px;
+  margin: 0;
+}
+
+.header__menu:hover .header__menu--profile-img, 
+.header__menu:hover p,
+.header__menu--details:hover .header__menu--profile-img, 
+.header__menu--details:hover p {
+  color: #65499c;
+}
+
+.header__menu--details {
+  display: none;
+  list-style: none;
+  margin: 0 14px 0 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  text-align: right;
+}
+
+.header__menu:hover .header__menu--details, 
+.header__menu--details:hover {
+  display: block;
+}
+
+.header__menu--details li {
+  margin: 15px 0;
+}
+
+.header__menu--details li:last-child {
+  margin-bottom: 0;
+}
+
+.header__menu--details li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header__menu--details li a:hover {
+  color: #65499c;
+  text-decoration: underline;
+}
+/*
+  End header styles
+*/

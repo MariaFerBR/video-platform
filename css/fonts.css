@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'UbuntuBold';
+    src: url('../assets/fonts/Ubuntu-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'UbuntuItalic';
+    src: url('../assets/fonts/Ubuntu-Italic.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../assets/fonts/Ubuntu-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Cheri';
+    src: url('../assets/fonts/Cheri.ttf');
+}
